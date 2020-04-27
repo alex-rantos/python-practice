@@ -1,5 +1,4 @@
-
-def max_sub_array( nums):
+def max_sub_array(nums):
     """
     Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 
