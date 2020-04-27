@@ -1,4 +1,0 @@
-**/.vscode/**
-*.code-workspace
-**/*_venv/**
-./problems_solving/test.py
