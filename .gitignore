@@ -1,0 +1,5 @@
+**/.vscode/**
+*.code-workspace
+**/*_venv/**
+
+**/test.py
