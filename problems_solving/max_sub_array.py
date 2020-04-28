@@ -1,4 +1,3 @@
-
 def max_sub_array(nums):
     """
     Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
@@ -43,18 +42,19 @@ def max_sub_array(nums):
         return max(nums)
     else:
         return max_sum"""
-
+    
     # Fastest solution
     cur_sum = 0
     max_sum = 0
     for x in nums:
-        cur_sum = max(cur_sum + x, x)
-        max_sum = max(max_sum, cur_sum)
+        cur_sum = max(cur_sum + x,x)
+        max_sum = max(max_sum,cur_sum)
     return max_sum
 
 
-if __name__ == '__main__':
 
-    arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
-    _sum = max_sub_array(arr)
+if __name__ == '__main__':
+    
+    arr = [-2,1,-3,4,-1,2,1,-5,4]
+    _sum = sol.max_sub_array(arr)
     print(_sum)
