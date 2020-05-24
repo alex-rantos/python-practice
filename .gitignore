@@ -2,3 +2,4 @@
 *.code-workspace
 **/*_venv/**
 **/test.py
+**/__pycache__/**
