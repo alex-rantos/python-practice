@@ -2,7 +2,7 @@ import collections
 from typing import List
 
 
-def canFinish(gitnumCourses: int, prerequisites: List[List[int]]) -> bool:
+def canFinish(numCourses: int, prerequisites: List[List[int]]) -> bool:
     graph = collections.defaultdict(list)
     indegrees = collections.defaultdict(int)
     for u, v in prerequisites:
